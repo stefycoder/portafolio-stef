@@ -1,0 +1,210 @@
+#menu .logo{
+	width: 120px;
+	padding: 25px;
+}
+#inicio .opacity {
+    background: rgba(0, 0, 0, 0.6);
+    height: 500px; }
+.navbar-nav>li {
+	margin-top: 15px;
+}
+#banner {
+  background: url(../img/codigo.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  background-attachment: fixed;
+  margin-top: 60px; }
+  
+  #banner .texto1 {
+    padding-top: 8%;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.2em; }
+    #banner .texto1 h1 {
+      font-weight: 300;
+      font-size: 3.4em;
+      margin-bottom: 5%; }
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	background-size: cover;
+	height: 400px;
+}
+#informacion{
+	width: 100%;
+	margin:5% auto 3%;
+}
+#informacion p:first-child{
+	width: 60%;
+	color:#979797;
+	margin:30px auto;
+	line-height: 1.5;
+	font-size: 1.6em;
+}
+.portfolio-tiles .content{
+	position: relative;
+	overflow: hidden;
+	display: block;
+	min-width: 100%;
+	margin: 0 -5px 10px;
+	height: 300px;
+}
+.portfolio1{
+	background: url("../img/danza.png");
+}
+.image-bg{
+	height: 305px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.portfolio2{
+	background: url("../img/ecomunidad.png");
+	width: 100%;
+	background-size: cover;
+}
+.portfolio3{
+	background: url("../img/primes.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.portfolio4{
+	background: url("../img/sentiend.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.portfolio5{
+	background: url("../img/portfolio.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.portfolio6{
+	background: url("../img/responsive.png");
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.portfolio-tiles .row{
+	margin: 0px !important;
+	overflow: hidden;
+	padding: 5px 0 0!important;
+}
+.vista {
+    width: 100%;
+    height: 305px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+}
+.vista a {
+    display: block;
+    position: relative;
+}
+/* Estilos zoom*/
+.vista a {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.vista:hover a { 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+#informacion p:nth-child(2){
+	width: 70%;
+	color: #002366;
+	font-size: 1.8em;
+	line-height: 1.5;
+	margin:10px auto 0;
+}
+
+#clase{
+	max-width:1001px;
+	margin:0 auto 5%;
+}
+#contactus{
+	background: url(../img/3.jpg)no-repeat;
+	background-color: #F9F9F9;
+	color:#f6f6f6;
+	background-size: 100% 200%;
+	background-attachment: fixed;
+}
+#contactus h1{
+	padding:5% 0 2%;
+	font-size: 4rem;
+	font-weight: bold;
+}
+#contactus p{
+	width: 411px;
+	color:#fff;
+	font-size: 2.3rem;
+	line-height: 1.5;
+	padding-bottom: 1%;
+	margin:0 auto;
+}
+#contactus input{
+	width: 411px;
+	height: 50px;
+	color: #000;
+	text-align: center;
+	font-size: 1.8rem;
+}
+#contactus button{
+	border:none;
+	background-color: #179AD6;
+	height: 40px;
+	width: 150px;
+	color:#f6f6f6;
+	margin-bottom: 5%;
+	font-size: 1.5rem;
+}
+#pie a{
+	font-size:20px;
+	margin-top: 30px;
+
+}
+
+@media (max-width: 768px){
+	#contactus{
+		background-color: #F9F9F9;
+		background-image: none;
+		padding:20px 0 40px;
+		margin-top: 35px;
+	}
+	#contactus h1{
+		color:#002366;
+		font-size: 3rem;
+	}
+	#contactus p{
+		color:#979797;
+		font-size: 1.8rem;
+		width: 80%;
+		margin-bottom: 10px;
+	}
+
+	#contactus input{
+		width: 90%;
+	}
+	#contactus button{
+		width: 72%;
+	}
+	
+	#informacion p:first-child{
+	width: 75%;
+	
+	}
+
+}
